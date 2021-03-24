@@ -36,6 +36,7 @@ public class Vehicle {
 
     // basic vehicle tax based on purchase price, depreciated over 10 years
     public double getTax(){
+        return 0.055*this.Vpurchaseprice*depreciation function 1.0 -> 0.0 over ten years
     }
 
     // overrides Object method

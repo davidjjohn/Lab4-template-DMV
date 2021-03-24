@@ -58,10 +58,11 @@ public class Main {
         mainPanel.add(theText); //add the text area to the panel
 
         // set up JFrame with a few members set and
-        // add JPanel content to it
+        // add JPanel content to it jljkl
+        
         final JFrame theFrame = new JFrame();
         theFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        theFrame.setTitle("Vehicle Taxes Due\n");
+        theFrame.setTitle("Vehicle Taxes Due done by David\n");
         theFrame.setSize(500, 500);
         theFrame.setLocation(550, 400);
         theFrame.getContentPane().add(mainPanel);
@@ -79,6 +80,34 @@ public class Main {
 
     private static void readInput() {
 
+        // open vehicles.csv as a Scanner (try-catch)
+        //      new FileReader("myvehicles.csv")
+        // specify the path to the file
 
+        // as long there are lines to read
+
+          //   try
+             // read the classification as a string (vehicle, car or truck)
+             //  read the tag # as a string
+             //  read teh vin as a string
+             //  read the purchase price as a double
+             //  read the purchase year as an int
+
+             //   if vehicle (not a car and not a truck)
+                     // create a vehicle & add it to the ArrayList
+
+             //   if car
+                      //  read the car information
+                      //  create a car (vehicle) and add it to the ArrayList
+
+             //   else if truck
+                      // read the truck information
+                      //  create a truck (vehicle) and add it to th the ArrayList
+           // catch
+
+                   // read error
+                    // error message to System.out
+
+        // close our Scanner
     }
 }

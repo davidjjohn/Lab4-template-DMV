@@ -29,7 +29,7 @@ public class Car extends Vehicle {
 
     // overrides Vehicle method
     public double getTax(){
-        return 0.00;
+        return super.getTax() ....;
     }
 
     // overrides Vehicle method
